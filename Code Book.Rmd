@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ##Code Book
 
-This file explains what the variables are in the tidydata.csv file. For more detailed information, see the features_info.txt.
+This file explains what variables are in the tidydata.csv file. For more detailed information, see the features_info.txt.
 
 ##Subject and activity variables
 
