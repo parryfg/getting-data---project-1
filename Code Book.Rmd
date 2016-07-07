@@ -1,0 +1,120 @@
+---
+title: "Code Book"
+author: "parryfg"
+date: "July 7, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Code Book
+
+This file explains what the variables are in the tidydata.csv file. 
+
+##Subject and activity variables
+
+The first two variables in the dataset are the following:
+
+[1] "activity"                         
+[2] "subject"    
+
+The variable labeled "activity" is a factor variable (1 - 6) that tracks what kind of physical activity (e.g., running or sitting) the subject was doing when the accelerometer obtained certain data. 
+
+The variable labeled "subject" is the unique identifier for the subjects who participated in the tests to gather this data. 
+
+##Measurement Variables
+
+All variables except for the 'activity' and 'subject' variables are measurement variables. These variables track the force on the accelerometer. All of the measurement variables in this dataset are averages or standard deviations of the data collected from each subject during their different physical activities. These variables include the following:
+
+ [3] "t.Acc.mean.X"                     
+ [4] "t.Acc.mean.Y"                     
+ [5] "t.Acc.mean.Z"                     
+ [6] "t.Acc.std.X"                      
+ [7] "t.Acc.std.Y"                      
+ [8] "t.Acc.std.Z"                      
+ [9] "tGravityAcc.mean.X"               
+[10] "tGravityAcc.mean.Y"               
+[11] "tGravityAcc.mean.Z"               
+[12] "tGravityAcc.std.X"                
+[13] "tGravityAcc.std.Y"                
+[14] "tGravityAcc.std.Z"                
+[15] "t.AccJerk.mean.X"                 
+[16] "t.AccJerk.mean.Y"                 
+[17] "t.AccJerk.mean.Z"                 
+[18] "t.AccJerk.std.X"                  
+[19] "t.AccJerk.std.Y"                  
+[20] "t.AccJerk.std.Z"                  
+[21] "t.Gyro.mean.X"                    
+[22] "t.Gyro.mean.Y"                    
+[23] "t.Gyro.mean.Z"                    
+[24] "t.Gyro.std.X"                     
+[25] "t.Gyro.std.Y"                     
+[26] "t.Gyro.std.Z"                     
+[27] "t.GyroJerk.mean.X"                
+[28] "t.GyroJerk.mean.Y"                
+[29] "t.GyroJerk.mean.Z"                
+[30] "t.GyroJerk.std.X"                 
+[31] "t.GyroJerk.std.Y"                 
+[32] "t.GyroJerk.std.Z"                 
+[33] "t.AccMag.mean"                    
+[34] "t.AccMag.std"                     
+[35] "tGravityAccMag.mean"              
+[36] "tGravityAccMag.std"               
+[37] "t.AccJerkMag.mean"                
+[38] "t.AccJerkMag.std"                 
+[39] "t.GyroMag.mean"                   
+[40] "t.GyroMag.std"                    
+[41] "t.GyroJerkMag.mean"               
+[42] "t.GyroJerkMag.std"                
+[43] "f.Acc.mean.X"                     
+[44] "f.Acc.mean.Y"                     
+[45] "f.Acc.mean.Z"                     
+[46] "f.Acc.std.X"                      
+[47] "f.Acc.std.Y"                      
+[48] "f.Acc.std.Z"                      
+[49] "f.Acc.meanFreq.X"                 
+[50] "f.Acc.meanFreq.Y"                 
+[51] "f.Acc.meanFreq.Z"                 
+[52] "f.AccJerk.mean.X"                 
+[53] "f.AccJerk.mean.Y"                 
+[54] "f.AccJerk.mean.Z"                 
+[55] "f.AccJerk.std.X"                  
+[56] "f.AccJerk.std.Y"                  
+[57] "f.AccJerk.std.Z"                  
+[58] "f.AccJerk.meanFreq.X"             
+[59] "f.AccJerk.meanFreq.Y"             
+[60] "f.AccJerk.meanFreq.Z"             
+[61] "f.Gyro.mean.X"                    
+[62] "f.Gyro.mean.Y"                    
+[63] "f.Gyro.mean.Z"                    
+[64] "f.Gyro.std.X"                     
+[65] "f.Gyro.std.Y"                     
+[66] "f.Gyro.std.Z"                     
+[67] "f.Gyro.meanFreq.X"                
+[68] "f.Gyro.meanFreq.Y"                
+[69] "f.Gyro.meanFreq.Z"                
+[70] "f.AccMag.mean"                    
+[71] "f.AccMag.std"                     
+[72] "f.AccMag.meanFreq"                
+[73] "fBody.AccJerkMag.mean"            
+[74] "fBody.AccJerkMag.std"             
+[75] "fBody.AccJerkMag.meanFreq"        
+[76] "fBody.GyroMag.mean"               
+[77] "fBody.GyroMag.std"                
+[78] "fBody.GyroMag.meanFreq"           
+[79] "fBody.GyroJerkMag.mean"           
+[80] "fBody.GyroJerkMag.std"            
+[81] "fBody.GyroJerkMag.meanFreq"       
+[82] "angle.t.AccMean.gravity."         
+[83] "angle.t.AccJerkMean..gravityMean."
+[84] "angle.t.GyroMean.gravityMean."    
+[85] "angle.t.GyroJerkMean.gravityMean."
+[86] "angle.X.gravityMean."             
+[87] "angle.Y.gravityMean."             
+[88] "angle.Z.gravityMean."
+
+
+
+

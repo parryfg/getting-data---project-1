@@ -1,0 +1,29 @@
+---
+title: "README"
+author: "parryfg"
+date: "July 7, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Course Project #1 - Johns Hopkins class Getting and Cleaning Data
+This is the course project for the Johns Hopkins course on getting and cleaning data. The run_analysis.r file does the following:
+
+* Downloads raw movement data
+* Loads movement data into r
+* Combines training and test datasets 
+* Adds factor labels to a factor variable
+* Keeps only mean and standard deviation data columns
+* Tidies up the variable labels 
+* Averages the observations by the subject and their physical activity (e.g., walk, run, sit)
+ 
+The output of the run_analysis.r file is the tidydata.csv dataset. 
+
+##Project Overview - Body Movement Data 
+
+Wearable computing is a great way to track fitness metrics. Services like Fitbit, Nike, and Jawbone are each offering their own version of fitness tracking devices. However, in order to create meaningful feedback, these devices must be able to interpret the data collected. For example, is the user running or sitting or standing? Are they improving or getting worse? 
+
+The run_analysis.r rile shows the steps it took to take raw movement data as recorded by a Galaxy S smartphones's acceleromoter, and transform that data into a dataset ready for analysis. This data could then be used to help create algorithms that enabled devices like a Fitbit to interpret the data it receives from it's accelerometer.
